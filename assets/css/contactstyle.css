@@ -1,0 +1,130 @@
+
+html {
+  background-color:hsl(0, 0%, 80%);
+  background-image: url("../images/back.png");
+  height: 100vh;
+}
+
+.menu {
+
+  background-color: #ffffff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #777777; 
+  width: 100%;
+  height: 100px;
+  position: relative;
+  top: 0;
+  padding: 25px 40px 30px 10px; 
+  
+}
+
+.name  {
+  float: left;
+  width: 200px;
+  height: 69px;
+  background-color: #4aaaa5;
+  color: white;
+  text-align: center;
+  font-size:22px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: relative;
+  right: -200px;
+  bottom: -60px;
+  font-weight:bold;
+  }
+
+.menulinks {
+  float: left;
+  position: relative;
+  left: 825px;
+  bottom: -75px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+.container {
+  margin-top: 200px;
+  margin-left: 200px;
+  width: 960px;
+  height: 600px;
+  background-color: white;
+  padding-left: 50px;
+  padding-right: 70px;
+  margin-bottom: 400px;
+  
+ 
+ }
+
+
+h1{
+  padding-top: 50px;  
+  color: #4aaaa5;
+    position: relative;
+    top: -10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight:bold;
+}
+
+
+.break {
+  height: 2px;
+  width: 950px;
+  background-color: gray;
+  margin-bottom: 50px
+  
+}
+
+.smallbox {
+  padding-top:20px;
+
+}
+
+.largebox {
+  padding-top:20px;
+}
+
+#email{
+  width: 100%;
+  height: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#fname {
+  width: 100%;
+  height: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#Message {
+
+  width: 100%;
+  height: 200px;
+  text-align: top;
+}
+
+#button {
+background-color:#4aaaa5;
+font-family: Arial, Helvetica, sans-serif;
+color:white;
+height: 50px;
+width: 150px;
+font-size: 20px;
+
+}
+
+.footer {
+  color: white; 
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #666666;
+  height: 30px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center; 
+  padding: 10px 10px 30px 20px;
+  border-top: 8px solid #4aaaa5
+}
+
+
