@@ -128,3 +128,172 @@ font-size: 20px;
 }
 
 
+
+/* MEDIA QUERIES */
+
+/*980 px WIDTH */
+@media only screen and (max-width: 980px) and (min-width : 767px) {
+
+
+  html {
+   width: 100vw;
+    height: 100vh;
+  }
+
+  body {
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .name {
+    position: static; 
+    position: top;
+    Margin-left: 50px;
+    top: -70px;
+  }
+
+  .menu {
+    height:40PX;
+
+  }
+
+  .menulinks {
+    widows: 640px;
+    position: static;
+    position: right;
+    margin-left: 400px;
+    padding-top: 20px;
+   
+     }
+  
+  .container {
+    margin-top: 200px;
+     width: 400px;
+    height: 600px;
+    background-color: white;
+  
+    margin-bottom: 400px;  
+   }
+  
+  
+  .break {
+    height: 2px;
+    width: 425px;
+    background-color: gray;
+    margin-bottom: 50px
+    
+  }
+
+  .smallbox {
+    width: 450px;
+  
+  }
+  
+  .largebox {
+    width: 450px;
+  }
+  
+  #email{
+    width: 425px;
+    border-width: thick;
+      }
+  
+  #fname {
+
+    width: 425px;
+    height: 30px;
+    border-width: thick;
+  }
+  
+  #Message {
+  
+    width: 425px;
+    height: 150px;
+    text-align: top;
+    margin-bottom: 30px;
+    border-width: thick;
+  }
+}  
+
+
+/*768 px WIDTH */
+@media only screen and (max-width: 768px) and (min-width : 639px) {
+
+
+  html {
+   width: 100vw;
+    height: 100vh;
+  }
+
+  body {
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .name {
+    position: static; 
+    position: top;
+    Margin-left: 50px;
+    top: -70px;
+  }
+
+  .menu {
+    height:40PX;
+
+  }
+
+  .menulinks {
+    widows: 640px;
+    position: static;
+    position: right;
+    margin-left: 400px;
+    padding-top: 20px;
+   
+     }
+  
+  .container {
+    margin-top: 200px;
+    width: 768px;
+    height: 600px;
+    margin-bottom: 400px;  
+   }
+  
+  
+  .break {
+    height: 2px;
+    width: 768px;
+    background-color: gray;
+    margin-bottom: 50px
+    
+  }
+
+  .smallbox {
+    width: 768px;
+  
+  }
+  
+  .largebox {
+    width: 7768px;
+  }
+  
+  #email{
+    width: 768p;
+    border-width: thick;
+      }
+  
+  #fname {
+
+    width: 768px;
+    height: 30px;
+    border-width: thick;
+  }
+  
+  #Message {
+  
+    width: 768px;
+    height: 150px;
+    text-align: top;
+    margin-bottom: 30px;
+    border-width: thick;
+  }
+}  
