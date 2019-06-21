@@ -283,11 +283,126 @@ h1{
 }
 
 
-}
-
 @media only screen and  (min-width: 641px) and (max-width: 768px){
+
+    .name {
+        padding:0 ;
+        margin-bottom: 20px;
+        margin-top: -60px;
+        height: 100px;
+        width: 300px;
+        font-size: 30px;
+        margin-left: -150px;
+        }
+    
+    .menu {
+        width: 900px;  
+        height: 100px;
+        padding:0;
+        margin-bottom: 150px;
+     
+    }
+    
+    .menulinks {
+        position: static;
+        padding-top: 35px;
+        padding-left: 325px;
+        padding-bottom: 50px;
+        font-size: 30px;
+    }
+    
+    
+    .wrapper {
+        margin-top: 150px;
+        width: 825px;
+        margin-left: 20px;
+        height: 800px;
+    }
+    
+    .prod {
+        width: 350px;
+        height: 350px;
+        margin-right: 50px;
+        margin-left: 30px;
+    }
+    
+    
+    .mrk {
+        width: 350px;
+        height: 350px;
+    }
+    
+    
+    
+    .vlt {
+        width: 350px;
+        height: 350px;
+    }
+    
+    
+    .edu {
+        width: 350px;
+        height: 350px;
+        margin-right: 50px;
+        margin-left: 30px;
+        
+    }
+    
+    .Other {
+        width: 350px;
+        height: 350px;
+        margin-left: 30px;
+    
+    }
+    .label {
+        width: 350px;
+        height: 90px;
+        position: relative;
+        bottom: -200px;
+        text-align: center;
+        font-size: 40px;
+    }
+        .break {
+            width: 800px;
+            
+        }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 980px) {
 
+    .wrapper {
+        width: 500px;
+        margin-left: 50px;
+        height: 900px;
+
+    }
+
+    .menu {
+        height: 50px;
+
+    }
+
+    .name {
+        padding:0 ;
+        margin-bottom: 20px;
+        margin-top: -80px;
+        height: 100px;
+        width: 300px;
+        font-size: 30px;
+        margin-left: -150px;
+        }
+    
+       
+    .menulinks {
+        position: static;
+        padding-top: 30px;
+        padding-left: 450px;
+        padding-bottom: 50px;
+        font-size: 25px;
+    }
+
+    .break {
+        width: 475px;
+        
+    }
 }
