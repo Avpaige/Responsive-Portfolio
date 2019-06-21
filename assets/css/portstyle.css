@@ -195,3 +195,99 @@ h1{
     font-size: 20px;
     
 }
+
+
+@media only screen and (max-width: 640px) {
+.name {
+    padding:0 ;
+    margin-bottom: 20px;
+    margin-top: -60px;
+    width: 900px;
+    font-size: 30px;
+    margin-left: -200px;
+    }
+
+.menu {
+    width: 900px;  
+    height: 150px;
+    padding:0;
+ 
+}
+
+.menulinks {
+    widows: 800px;
+    position: static;
+    position: center;
+    padding-top: 75px;
+    padding-left: 300px;
+    padding-bottom: 50px;
+    font-size: 30px;
+}
+
+
+.wrapper {
+    margin-top: 50px;
+    width: 500px;
+}
+
+.prod {
+    width: 500px;
+    height: 500px;
+    margin-right: 250px;
+}
+
+
+.mrk {
+    width: 500px;
+    height: 500px;
+    margin-right: 250px;
+
+}
+
+
+
+.vlt {
+    width: 500px;
+    height: 500px;
+    margin-right: 250px;
+    
+}
+
+
+.edu {
+    width: 500px;
+    height: 500px;
+    margin-right: 250px;
+    margin-bottom: 50px;
+
+}
+
+.Other {
+    width: 500px;
+    height: 500px;
+    margin-right: 250px;
+
+}
+.label {
+    width: 500px;
+    height: 90px;
+    position: relative;
+    bottom: -350px;
+    text-align: center;
+    font-size: 40px;
+}
+    .break {
+        width: 500px;
+        
+    }
+}
+
+
+}
+
+@media only screen and  (min-width: 641px) and (max-width: 768px){
+}
+
+@media only screen and (min-width: 769px) and (max-width: 980px) {
+
+}

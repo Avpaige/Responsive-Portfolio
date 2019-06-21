@@ -119,8 +119,8 @@ img {
 
   body {
     width: 640px;
-    background-color: blue;
   }
+
   .name {
   float:top;
   padding-top: 0;
@@ -190,9 +190,9 @@ img {
 
   }
   body {
-    width: 768px;
-    background-color: green;
+    width: 768px;  
   }
+
   .name {
     position: static; 
     position: top;
@@ -264,8 +264,7 @@ img {
   
   body {
     width: 980px;
-    background-color: red;
-  }
+    }
   .name {
     position: static; 
     position: top;
