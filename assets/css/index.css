@@ -88,8 +88,7 @@ img {
   height: 2px;
   width: 950px;
   background-color: gray;
-  margin-bottom: 50px
-  
+   
 }
 
 
@@ -117,34 +116,36 @@ img {
   width: 640px;
 
   }
+
   body {
     width: 640px;
-  
+    background-color: blue;
   }
   .name {
-    width: 640px;
-    position: fixed; 
-    position: top;
-    background-color: #4aaaa5;
-    margin-top: 0;
-    
+  float:top;
+  padding-top: 0;
+  margin-top: 0;
+  width: 640px;
+  margin-top: -90px;
+  margin-bottom: 50px;
+  margin-left:-210px;
   }
 
   .menu {
     width: 640px;
-
+  
   }
   .menulinks {
     widows: 640px;
-    float:bottom;
     position: static;
     position: center;
-    padding-top: 30px;
+    padding-top: 50px;
+    padding-left: 160px;
  
     }
 
   .container {
-    width: 640px;
+    width: 500px;
     height: 1200px;  
     margin: 0px;
     padding: 0px;
@@ -156,13 +157,12 @@ img {
   }
 
   .para {
-  font-size: 30px;
+  font-size: 15px;
   width: 450px;
   }
 
   .break {
     width: 450px;
-
   }
 
   img {
@@ -183,7 +183,7 @@ img {
 
 
 /*768 px WIDTH */
-@media only screen and (max-width: 768px) and (min-width : 639px) {
+@media only screen and  (min-width: 641px) and (max-width: 768px){
   
   html{
   width: 768px;
@@ -191,7 +191,7 @@ img {
   }
   body {
     width: 768px;
-
+    background-color: green;
   }
   .name {
     position: static; 
@@ -253,15 +253,16 @@ img {
 }
 
 /*980 px WIDTH */
-@media only screen and (max-width: 980px) and (min-width : 767px) {
+@media only screen and (min-width: 769px) and (max-width: 980px) {
   
   html{
   width: 980px;
 
   }
+  
   body {
     width: 980px;
-
+    background-color: red;
   }
   .name {
     position: static; 
